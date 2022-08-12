@@ -2,7 +2,7 @@ package HomeWork14;
 
 public class HomeWork14 {
     public static void main(String[]args){
-    Programmer programmer = new Programmer("Mark",
+    Programmer programmer = new Programmer("Mark Zuckerberg",
             "I am a programmer and I  am coding",
             "It",
             "Keyboard",
@@ -10,7 +10,7 @@ public class HomeWork14 {
             "Meta",
             "Facebook");
 
-    Dancer dancer = new Dancer("Michael",
+    Dancer dancer = new Dancer("Michael Jackson",
             "I am a dancer and I can dance",
             "Сhoreography",
             "On the floor",
@@ -18,7 +18,7 @@ public class HomeWork14 {
             "Solus",
             "New J-Funk");
 
-    Singer singer = new Singer("Elvis",
+    Singer singer = new Singer("Elvis Presley",
             "I am a  singer and i am sing",
             "Song",
             "On the floor",
@@ -54,7 +54,7 @@ public class HomeWork14 {
         System.out.println("Eat: "+singer.getEat());
         System.out.println("Singing: "+singer.getSinging());
         System.out.println("Band name: "+singer.getBandName());
-        System.out.println("Play guitar:"+singer.getPlayGuitar());
+        System.out.println("Play guitar: "+singer.getPlayGuitar());
         System.out.println("-----------------------------");
 
 
